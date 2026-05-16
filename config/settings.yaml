@@ -1,0 +1,12 @@
+```
+
+app:
+  name: data_shape
+  environment: testing
+
+markdown:
+  input_template: templates/sample.md
+  output_dir: output/
+
+scan:
+  generate_sbom: true
